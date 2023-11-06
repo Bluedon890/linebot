@@ -21,6 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-u*9gcuoj737k9%mkn#1g0a(jfk$3in!9hc97r#nd79g5igces+"
+LINE_CHANNEL_SECRET = "1b8796623ee0482f7fa7a3fc9532c3a2"
+LINE_CHANNEL_ACCESS_TOKEN = "access token C2+Z4xSXEYIKMLEY9mzGydnMfyKFCFpk7UeKD2iLIF9fX28l88mFdOBGRkBxo614CeN9T8BDuAQ7oe9U4ZSMth6lBzp2vbKIR/FyF15NhMSbge9q9531YQvIfIefrkkgbkUxxXv1SsMlMdOIoaWLOQdB04t89/1O/w1cDnyilFU="
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "main",
 ]
 
 MIDDLEWARE = [
